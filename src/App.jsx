@@ -4,6 +4,7 @@ import Portfolio from './Components/Portfolio';  // Assuming Portfolio is in Com
 import Project1 from './Pages/Project1';  // Your Project1 page
 import Project2 from './Pages/Project2';  // Your Project2 page
 import Project3 from './Pages/Project3';  // Your Project3 page
+import Project4 from './Pages/Project4';  // Your Project3 page
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/project1" element={<Project1 />} />
         <Route path="/project2" element={<Project2 />} />
         <Route path="/project3" element={<Project3 />} />
+        <Route path="/project4" element={<Project4 />} />
         {/* backto home button */}
 
       </Routes>

@@ -1,11 +1,11 @@
 import React from 'react';
-import project1image from '../assets/project1-image.png';
+import project4image from '../assets/portfolio.png';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import Sidebar from '../Components/Sidebar';
 import { useNavigate } from 'react-router-dom';
 
-const Project1 = () => {
+const Project4 = () => {
     const navigate = useNavigate();
 
     return (
@@ -24,12 +24,12 @@ const Project1 = () => {
                     {/* Hero Section */}
                     <section className="flex flex-col justify-center items-center h-screen bg-projectbg  text-white  shadow-md">
                         <div className="text-center max-w-2xl">
-                            <h1 className="text-5xl font-bold mb-4">MODISH MUSLIMAH</h1>
+                            <h1 className="text-5xl font-bold mb-4">PORTFOLIO</h1>
                             <p className="text-lg mb-6">
-                                Crafted responsive design with HTML, CSS, Bootstrap, and JavaScript.
+                                Created a responsive portfolio using React and Tailwind CSS, showcasing projects and skills, deployed efficiently on Netlify platform.
                             </p>
                             <a
-                                href="https://rahman123.netlify.app" // Replace with your actual project link
+                                href="https://portfoliobyrahman.netlify.app/" // Replace with your actual project link
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="px-8 py-3 bg-white text-blue-500 rounded-md shadow-md hover:bg-gray-100 transition duration-300"
@@ -43,13 +43,13 @@ const Project1 = () => {
                     <section className="flex flex-col justify-center items-center h-screen bg-gray-50">
                         <div className="shadow-lg rounded-lg overflow-hidden">
                             <img
-                                src={project1image}
+                                src={project4image}
                                 className="h-48 w-96 object-cover"
                                 alt="Project 1"
                             />
                         </div>
                         <div>
-                            <p className='text-2xl px-40 py-5'>This project showcases a responsive web design built using HTML, CSS, JavaScript, and Bootstrap. It highlights modern web development techniques for creating aesthetically pleasing and functional user interfaces.</p>
+                            <p className='text-2xl px-40 py-5'>Developed a responsive and visually appealing portfolio website using React and Tailwind CSS, highlighting skills and projects. Integrated GitHub for version control and deployed seamlessly on Netlify for efficient hosting.</p>
                         </div>
                         <button
                             type="button"
@@ -68,13 +68,19 @@ const Project1 = () => {
                             </div>
                             <div className="flex flex-wrap justify-center gap-4 px-4">
                                 <button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition duration-300">
-                                    HTML
+                                    REACT
                                 </button>
                                 <button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition duration-300">
-                                    CSS
+                                    TAILWIND
                                 </button>
                                 <button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition duration-300">
-                                    JavaScript
+                                    NODE JS
+                                </button>
+                                <button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition duration-300">
+                                    NETLIFY
+                                </button>
+                                <button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition duration-300">
+                                    GITHUB
                                 </button>
                             </div>
                         </div>
@@ -85,7 +91,7 @@ const Project1 = () => {
                             </div>
                             <div className="flex flex-wrap justify-center gap-4">
                                 <a
-                                    href="https://github.com/codewithRAHMAN/modish-muslimah" // Replace with your actual project link
+                                    href="https://github.com/rahman4876/portfolio.git" // Replace with your actual project link
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="px-8 py-3 bg-white text-indigo-500 rounded-md shadow-md hover:bg-gray-100 transition duration-300"
@@ -114,4 +120,4 @@ const Project1 = () => {
     );
 };
 
-export default Project1;
+export default Project4;
