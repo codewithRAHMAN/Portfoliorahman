@@ -108,7 +108,7 @@ const Header = () => {
                             Latest Projects
                         </li>
                         <li
-                            className="cursor-pointer text-white hover:text-red-800"
+                            className="cursor-pointer  text-white hover:text-red-800"
                             onClick={() => handleMenuClick('contact')}
                         >
                             Contact Us
